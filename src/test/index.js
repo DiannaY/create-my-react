@@ -2,4 +2,6 @@
 
 // import './catpureValue';
 
-import './pureComponent';
+// import './pureComponent';
+
+import './concurrent';

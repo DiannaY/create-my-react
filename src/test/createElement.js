@@ -18,7 +18,6 @@ let vitualDom2 = createElement('div', {id: 'keyA', key: 'A'},
 
 console.log('myCreateElementVir', vitualDom2);
 
-
 function FunctionComponent() {
     return virtualDom2;
 }
