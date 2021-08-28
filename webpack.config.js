@@ -28,5 +28,11 @@ module.exports = {
     },
     plugins: [
         new htmlWepbackPlugin({template: './public/index.html'})
-    ]
+    ],
+    resolve: {
+        alias: {
+            '@react': '/src/react',
+            '@common': '/src/scripts/common'
+        }
+    }
 }
